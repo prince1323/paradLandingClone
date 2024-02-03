@@ -1,0 +1,47 @@
+.sectionStyle{
+    height: 97vh;
+    width: 100%;
+    padding: 1.3rem;
+}
+
+.containtStyle{
+    height: 100%;
+    width: 100%;
+    background: black;
+    position: relative;
+    color: white;
+    cursor: pointer;
+}
+
+.containtVideoStyle{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.conaintH1Style{
+    position: absolute;
+    top: 2%;
+    left: 1.4%;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.conaintH2Style{
+    position: absolute;
+    top: 9%;
+    left: 1.4%;
+    font-size: 1rem;
+    font-weight: 400;
+    border-bottom: 1px solid white;
+    padding: 0 2px 6px 2px;
+    text-transform: uppercase;
+}
+
+.item-align{
+    display: flex;
+    align-items: center;
+}
+
+
+

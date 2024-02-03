@@ -1,0 +1,241 @@
+@font-face {
+    font-family: paradaF;
+    src: url(./font/BentonSans.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: paradaF;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.307);
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+}
+
+.leftNav{
+    display: flex;
+    gap: 3rem;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem 0 1.2rem;
+}
+
+#logo img{
+    height: 30px;
+    width: 140px;
+}
+
+#navlinks{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+#navlinks li{
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 0.7rem;
+}
+
+main{
+    padding-top: 3.2rem;
+}
+
+.section2{
+    margin-top: -22px;
+}
+
+.section3{
+    max-height: 100vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+
+.containt1{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    padding-left: 1.3rem;
+    padding-right: 0.65rem;
+}
+
+.containt1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.containt1-text{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+.containt1-text h1{
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+
+.containt1-text h2{
+    font-weight: 400px;
+    font-size: 1rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 0.5rem;
+}
+
+.containt2{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    padding-right: 1.3rem;
+    padding-left: 0.65rem;
+}
+
+.containt2 img{
+    height: 100%;
+    width: 100%;
+}
+
+.containt2-text{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+.containt2-text h1{
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+
+.containt2-text h2{
+    font-weight: 400px;
+    font-size: 1rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 0.5rem;
+}
+
+.section4{
+    max-height: 100vh;
+    width: 100%;
+    margin-top: 6.8rem;
+    margin-bottom: 3.5rem;
+}
+
+.section4 img{
+    height: auto;
+    width: 100%;
+}
+
+.conaint-h2-2{
+    position: absolute;
+    top: 9%;
+    left: 8%;
+    font-size: 1rem;
+    font-weight: 400;
+    border-bottom: 1px solid white;
+    padding: 0 2px 6px 2px;
+    text-transform: uppercase;
+}
+
+
+.footerContainer1{
+    height: 35vh;
+    width: 100%;
+    display: flex;
+}
+
+.div1{
+    height: 100%;
+    width: 33%;
+    padding-left: 0.7rem;
+}
+
+.div1 img{
+    width: 7%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    margin-top: 20%;
+}
+
+
+.div2{
+    height: 100%;
+    width: 25%;
+    padding-top: 40px;
+}
+
+.div2 ul{
+    list-style: none;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.div3{
+    height: 100%;
+    width: 25%;
+    padding-top: 40px;
+}
+
+.div3 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.footerContainer2{
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding: 0 20px;
+}
+
+.footerContainer2 div{
+    display: flex;
+}
+
+.location{
+    padding: 5px 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.stores{
+    padding: 5px 10px;
+    border-right: 1px solid black;
+}
+
